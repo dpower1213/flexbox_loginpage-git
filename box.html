@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign In</title>
+    </head>
+    <body>
+        
+<style>
+.wrapper {
+place-content: space-between center;
+background-color: white;
+list-style-type: none;
+padding: .25em;
+width: 400px; 
+border-radius: 3px;
+border-style: solid; 
+border-color: black;
+}
+.div{
+    place-content: space-between center;
+}
+
+.wrapper > div {
+    padding: 2px;
+    width: 60%;
+    font-size: 4vw;
+    color: white;
+}
+.form-row {
+    display: flex;
+    padding: 0em .5em .5em .5em;
+}
+
+.form-row > label {
+    padding: 0em 0em 0em 0em;
+}
+.form-row > label2 {
+    padding: 0em 0em 0em 7em;
+    align-self: right;}
+    
+    .form-row > input {
+        flex: 2;
+    }
+    .form-row > input,
+    .form-row > button {
+        padding: 0em;
+    }
+    .form-row > button {
+        width: 390px;
+        background: yellow;
+        color: black;
+        border: 1;
+    }
+    .form-header {
+        padding:.5em 5em 2em 10em;
+        background: white;
+        color: black;
+        border: 0;
+    }
+    
+    </style>
+<div>
+<form>
+<ul class="wrapper">
+
+<header class="form-header">
+<label for="title">Sign In</label>
+</header>
+
+<li class="form-row">
+<label for="email">Email  (phone for mobile accounts)</label>
+</li>
+<li class="form-row">            
+<input type="text" id="email">
+</li>
+<li class="form-row">
+<label for="password">Password</label>
+<label2 for="password">Forgot Password</label1>
+</li>
+<li class="form-row">
+    <input type="text" id="password">
+</li>
+
+<li class="form-row">
+    <button type="submit">Submit</button>
+    <li class="form-row">
+        <label>
+            <a href ="https://github.com">Need Help?</a>
+        </label>
+    </li>
+</ul>
+</form>
+<li class="form-row">
+    <button type="submit">Create your Amazon Account</button>
+</li>
+    
+</div>
+</body>
+</html>
